@@ -1,14 +1,14 @@
-# 🌐 Ultra Low Power LoRa (ULP LoRa) Projects
+# Ultra Low Power LoRa (ULP LoRa) Projects
 
 This repository contains a collection of embedded systems projects developed using a custom **ULP LoRa board**, which is a modified **Arduino Pro Mini** paired with the **RFM95W LoRa module** for ultra-low power, long-range wireless communication.
 Link : https://icfoss.in/project-details/52
-> ⚙️ Focus: Minimal power usage, real-world sensor interfacing, wireless data transmission, and cloud-based visualization via ChirpStack, InfluxDB, and Grafana.
+> Focus: Minimal power usage, real-world sensor interfacing, wireless data transmission, and cloud-based visualization via ChirpStack, InfluxDB, and Grafana.
 
 ---
 
 ## Hardware Overview
 
-### 🔸 ULP LoRa Board
+### ULP LoRa Board
 
 The ULP LoRa board is a minimalistic design built for low-power IoT deployments. It is ideal for remote sensors, data loggers, and anything that benefits from long-range, low-data-rate communication.
 
@@ -24,7 +24,7 @@ The ULP LoRa board is a minimalistic design built for low-power IoT deployments.
 
 ---
 
-### 🔸 FTDI1232 Programmer
+### FTDI1232 Programmer
 
 Used to upload code and perform serial communication with the Arduino Pro Mini. It provides USB-to-UART bridging with support for 3.3V logic.
 
@@ -55,15 +55,15 @@ Used to upload code and perform serial communication with the Arduino Pro Mini. 
 ## Experiments Done
 
 ### GPIO + Digital Logic
-- ✅ LED Blink
-- ✅ LED Array Patterns
-- ✅ Software-based Logic Gates (AND, OR, NAND, NOR, XOR, XNOR)
+- LED Blink
+- LED Array Patterns
+- Software-based Logic Gates (AND, OR, NAND, NOR, XOR, XNOR)
 
 ### Sensor Integration
-- ✅ BMP180 (I2C)
-- ✅ BMP280 (SPI)
-- ✅ SHT20 / SHT45 (I2C)
-- ✅ LDR (analog)
+- BMP180 (I2C)
+- BMP280 (SPI)
+- SHT20 / SHT45 (I2C)
+- LDR (analog)
 ---
 
 ## LoRa + LoRaWAN Integration
@@ -127,10 +127,10 @@ Used to upload code and perform serial communication with the Arduino Pro Mini. 
 ---
 
 ## References & Code Links
-- 🔗 MCCI LMIC Library: [github.com/mcci-catena/arduino-lmic](https://github.com/mcci-catena/arduino-lmic)
-- 🔗 ChirpStack Docs: [chirpstack.io](https://www.chirpstack.io/)
-- 🔗 InfluxDB: [influxdata.com](https://www.influxdata.com/)
-- 🔗 Grafana: [grafana.com](https://grafana.com/)
+- MCCI LMIC Library: [github.com/mcci-catena/arduino-lmic](https://github.com/mcci-catena/arduino-lmic)
+- ChirpStack Docs: [chirpstack.io](https://www.chirpstack.io/)
+- InfluxDB: [influxdata.com](https://www.influxdata.com/)
+- Grafana: [grafana.com](https://grafana.com/)
 
 ---
 
